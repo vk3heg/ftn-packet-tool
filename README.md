@@ -3,6 +3,44 @@
 A comprehensive utility for analyzing, repairing, and viewing FidoNet Type
 2+ packet files.
 
+**Version:** 1.6
+**Author:** Stephen Walsh
+**Contact:** vk3heg@gmail.com | FidoNet 3:633/280 | FSXNet 21:1/195 | Amiganet 39:901/280
+
+## Table of Contents
+
+- [Features](#features)
+  - [Packet Analysis](#packet-analysis)
+  - [Packet Repair](#packet-repair)
+  - [Packet Modification](#packet-modification)
+  - [Packet Information Viewing](#packet-information-viewing)
+- [Usage](#usage)
+  - [View Packet Information](#view-packet-information)
+  - [Analyze Packet](#analyze-packet)
+  - [Repair Packet](#repair-packet)
+  - [Modify Packet Header](#modify-packet-header)
+  - [Modify Message Fields](#modify-message-fields)
+- [Command-Line Options](#command-line-options)
+- [Packet Information Display](#packet-information-display)
+  - [Header Information](#header-information)
+  - [Message List](#message-list)
+  - [Full Message View](#full-message-view)
+- [Common Issues Fixed](#common-issues-fixed)
+- [Product Code Lookup](#product-code-lookup)
+- [File Handling](#file-handling)
+  - [Backups](#backups)
+  - [Output Files](#output-files)
+- [Exit Codes](#exit-codes)
+- [Requirements](#requirements)
+- [Technical Details](#technical-details)
+  - [FidoNet Type 2+ Packet Structure](#fidonet-type-2-packet-structure)
+  - [Character Encoding](#character-encoding)
+  - [Kludge Lines](#kludge-lines)
+- [Examples](#examples)
+- [Version](#version)
+- [Author](#author)
+- [License](#license)
+
 ## Features
 
 ### Packet Analysis
@@ -393,7 +431,7 @@ Current version: 1.6.0
 
 ## Author
 
-Created for PyGate FidoNet/NNTP gateway.
+Created for PyGate FidoNet/NNTP gateway and other FTN Project's.
 
 ## License
 
